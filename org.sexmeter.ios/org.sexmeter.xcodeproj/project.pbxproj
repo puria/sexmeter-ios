@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD52B4D916615D6D006632CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD52B4D816615D6D006632CF /* UIKit.framework */; };
+		CD52B4DB16615D6D006632CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD52B4DA16615D6D006632CF /* Foundation.framework */; };
+		CD52B4DD16615D6D006632CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD52B4DC16615D6D006632CF /* CoreGraphics.framework */; };
+		CD52B4E316615D6D006632CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD52B4E116615D6D006632CF /* InfoPlist.strings */; };
+		CD52B4E516615D6D006632CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD52B4E416615D6D006632CF /* main.m */; };
+		CD52B4E916615D6D006632CF /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD52B4E816615D6D006632CF /* SMAppDelegate.m */; };
+		CD52B4EC16615D6D006632CF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD52B4EA16615D6D006632CF /* MainStoryboard_iPhone.storyboard */; };
+		CD52B4EF16615D6D006632CF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD52B4ED16615D6D006632CF /* MainStoryboard_iPad.storyboard */; };
+		CD52B4F216615D6D006632CF /* SMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD52B4F116615D6D006632CF /* SMFirstViewController.m */; };
+		CD52B4F416615D6D006632CF /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B4F316615D6D006632CF /* first.png */; };
+		CD52B4F616615D6D006632CF /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B4F516615D6D006632CF /* first@2x.png */; };
+		CD52B4F916615D6D006632CF /* SMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD52B4F816615D6D006632CF /* SMSecondViewController.m */; };
+		CD52B4FB16615D6D006632CF /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B4FA16615D6D006632CF /* second.png */; };
+		CD52B4FD16615D6D006632CF /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B4FC16615D6D006632CF /* second@2x.png */; };
+		CD52B50516615D6D006632CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD52B50416615D6D006632CF /* SenTestingKit.framework */; };
+		CD52B50616615D6D006632CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD52B4D816615D6D006632CF /* UIKit.framework */; };
+		CD52B50716615D6D006632CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD52B4DA16615D6D006632CF /* Foundation.framework */; };
+		CD52B50F16615D6D006632CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD52B50D16615D6D006632CF /* InfoPlist.strings */; };
+		CD52B51216615D6D006632CF /* org_sexmeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD52B51116615D6D006632CF /* org_sexmeterTests.m */; };
+		CD52B51E16615FEB006632CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B51D16615FEB006632CF /* Default@2x.png */; };
+		CD52B52016618B88006632CF /* dash.png in Resources */ = {isa = PBXBuildFile; fileRef = CD52B51F16618B88006632CF /* dash.png */; };
+		CD52B5221661A0BC006632CF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD52B5211661A0BC006632CF /* CoreMotion.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD52B50816615D6D006632CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD52B4CB16615D6D006632CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD52B4D316615D6D006632CF;
+			remoteInfo = org.sexmeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD52B4D416615D6D006632CF /* org.sexmeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = org.sexmeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD52B4D816615D6D006632CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD52B4DA16615D6D006632CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD52B4DC16615D6D006632CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD52B4E016615D6D006632CF /* org.sexmeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "org.sexmeter-Info.plist"; sourceTree = "<group>"; };
+		CD52B4E216615D6D006632CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD52B4E416615D6D006632CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD52B4E616615D6D006632CF /* org.sexmeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "org.sexmeter-Prefix.pch"; sourceTree = "<group>"; };
+		CD52B4E716615D6D006632CF /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		CD52B4E816615D6D006632CF /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		CD52B4EB16615D6D006632CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CD52B4EE16615D6D006632CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CD52B4F016615D6D006632CF /* SMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMFirstViewController.h; sourceTree = "<group>"; };
+		CD52B4F116615D6D006632CF /* SMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMFirstViewController.m; sourceTree = "<group>"; };
+		CD52B4F316615D6D006632CF /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CD52B4F516615D6D006632CF /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CD52B4F716615D6D006632CF /* SMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSecondViewController.h; sourceTree = "<group>"; };
+		CD52B4F816615D6D006632CF /* SMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSecondViewController.m; sourceTree = "<group>"; };
+		CD52B4FA16615D6D006632CF /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CD52B4FC16615D6D006632CF /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CD52B50316615D6D006632CF /* org.sexmeterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = org.sexmeterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD52B50416615D6D006632CF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD52B50C16615D6D006632CF /* org.sexmeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "org.sexmeterTests-Info.plist"; sourceTree = "<group>"; };
+		CD52B50E16615D6D006632CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD52B51016615D6D006632CF /* org_sexmeterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = org_sexmeterTests.h; sourceTree = "<group>"; };
+		CD52B51116615D6D006632CF /* org_sexmeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = org_sexmeterTests.m; sourceTree = "<group>"; };
+		CD52B51B16615FDD006632CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD52B51D16615FEB006632CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD52B51F16618B88006632CF /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		CD52B5211661A0BC006632CF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD52B4D116615D6D006632CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52B5221661A0BC006632CF /* CoreMotion.framework in Frameworks */,
+				CD52B4D916615D6D006632CF /* UIKit.framework in Frameworks */,
+				CD52B4DB16615D6D006632CF /* Foundation.framework in Frameworks */,
+				CD52B4DD16615D6D006632CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52B4FF16615D6D006632CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52B50516615D6D006632CF /* SenTestingKit.framework in Frameworks */,
+				CD52B50616615D6D006632CF /* UIKit.framework in Frameworks */,
+				CD52B50716615D6D006632CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD52B4C916615D6D006632CF = {
+			isa = PBXGroup;
+			children = (
+				CD52B5211661A0BC006632CF /* CoreMotion.framework */,
+				CD52B51D16615FEB006632CF /* Default@2x.png */,
+				CD52B51B16615FDD006632CF /* Default.png */,
+				CD52B51F16618B88006632CF /* dash.png */,
+				CD52B4DE16615D6D006632CF /* org.sexmeter */,
+				CD52B50A16615D6D006632CF /* org.sexmeterTests */,
+				CD52B4D716615D6D006632CF /* Frameworks */,
+				CD52B4D516615D6D006632CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD52B4D516615D6D006632CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD52B4D416615D6D006632CF /* org.sexmeter.app */,
+				CD52B50316615D6D006632CF /* org.sexmeterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD52B4D716615D6D006632CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD52B4D816615D6D006632CF /* UIKit.framework */,
+				CD52B4DA16615D6D006632CF /* Foundation.framework */,
+				CD52B4DC16615D6D006632CF /* CoreGraphics.framework */,
+				CD52B50416615D6D006632CF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD52B4DE16615D6D006632CF /* org.sexmeter */ = {
+			isa = PBXGroup;
+			children = (
+				CD52B4E716615D6D006632CF /* SMAppDelegate.h */,
+				CD52B4E816615D6D006632CF /* SMAppDelegate.m */,
+				CD52B4EA16615D6D006632CF /* MainStoryboard_iPhone.storyboard */,
+				CD52B4ED16615D6D006632CF /* MainStoryboard_iPad.storyboard */,
+				CD52B4F016615D6D006632CF /* SMFirstViewController.h */,
+				CD52B4F116615D6D006632CF /* SMFirstViewController.m */,
+				CD52B4F316615D6D006632CF /* first.png */,
+				CD52B4F516615D6D006632CF /* first@2x.png */,
+				CD52B4F716615D6D006632CF /* SMSecondViewController.h */,
+				CD52B4F816615D6D006632CF /* SMSecondViewController.m */,
+				CD52B4FA16615D6D006632CF /* second.png */,
+				CD52B4FC16615D6D006632CF /* second@2x.png */,
+				CD52B4DF16615D6D006632CF /* Supporting Files */,
+			);
+			path = org.sexmeter;
+			sourceTree = "<group>";
+		};
+		CD52B4DF16615D6D006632CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD52B4E016615D6D006632CF /* org.sexmeter-Info.plist */,
+				CD52B4E116615D6D006632CF /* InfoPlist.strings */,
+				CD52B4E416615D6D006632CF /* main.m */,
+				CD52B4E616615D6D006632CF /* org.sexmeter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD52B50A16615D6D006632CF /* org.sexmeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD52B51016615D6D006632CF /* org_sexmeterTests.h */,
+				CD52B51116615D6D006632CF /* org_sexmeterTests.m */,
+				CD52B50B16615D6D006632CF /* Supporting Files */,
+			);
+			path = org.sexmeterTests;
+			sourceTree = "<group>";
+		};
+		CD52B50B16615D6D006632CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD52B50C16615D6D006632CF /* org.sexmeterTests-Info.plist */,
+				CD52B50D16615D6D006632CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD52B4D316615D6D006632CF /* org.sexmeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD52B51516615D6D006632CF /* Build configuration list for PBXNativeTarget "org.sexmeter" */;
+			buildPhases = (
+				CD52B4D016615D6D006632CF /* Sources */,
+				CD52B4D116615D6D006632CF /* Frameworks */,
+				CD52B4D216615D6D006632CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = org.sexmeter;
+			productName = org.sexmeter;
+			productReference = CD52B4D416615D6D006632CF /* org.sexmeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD52B50216615D6D006632CF /* org.sexmeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD52B51816615D6D006632CF /* Build configuration list for PBXNativeTarget "org.sexmeterTests" */;
+			buildPhases = (
+				CD52B4FE16615D6D006632CF /* Sources */,
+				CD52B4FF16615D6D006632CF /* Frameworks */,
+				CD52B50016615D6D006632CF /* Resources */,
+				CD52B50116615D6D006632CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD52B50916615D6D006632CF /* PBXTargetDependency */,
+			);
+			name = org.sexmeterTests;
+			productName = org.sexmeterTests;
+			productReference = CD52B50316615D6D006632CF /* org.sexmeterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD52B4CB16615D6D006632CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CD52B4CE16615D6D006632CF /* Build configuration list for PBXProject "org.sexmeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD52B4C916615D6D006632CF;
+			productRefGroup = CD52B4D516615D6D006632CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD52B4D316615D6D006632CF /* org.sexmeter */,
+				CD52B50216615D6D006632CF /* org.sexmeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD52B4D216615D6D006632CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52B4E316615D6D006632CF /* InfoPlist.strings in Resources */,
+				CD52B4EC16615D6D006632CF /* MainStoryboard_iPhone.storyboard in Resources */,
+				CD52B4EF16615D6D006632CF /* MainStoryboard_iPad.storyboard in Resources */,
+				CD52B4F416615D6D006632CF /* first.png in Resources */,
+				CD52B4F616615D6D006632CF /* first@2x.png in Resources */,
+				CD52B4FB16615D6D006632CF /* second.png in Resources */,
+				CD52B4FD16615D6D006632CF /* second@2x.png in Resources */,
+				CD52B51E16615FEB006632CF /* Default@2x.png in Resources */,
+				CD52B52016618B88006632CF /* dash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52B50016615D6D006632CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52B50F16615D6D006632CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD52B50116615D6D006632CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD52B4D016615D6D006632CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52B4E516615D6D006632CF /* main.m in Sources */,
+				CD52B4E916615D6D006632CF /* SMAppDelegate.m in Sources */,
+				CD52B4F216615D6D006632CF /* SMFirstViewController.m in Sources */,
+				CD52B4F916615D6D006632CF /* SMSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD52B4FE16615D6D006632CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD52B51216615D6D006632CF /* org_sexmeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD52B50916615D6D006632CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD52B4D316615D6D006632CF /* org.sexmeter */;
+			targetProxy = CD52B50816615D6D006632CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD52B4E116615D6D006632CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD52B4E216615D6D006632CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD52B4EA16615D6D006632CF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD52B4EB16615D6D006632CF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CD52B4ED16615D6D006632CF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD52B4EE16615D6D006632CF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CD52B50D16615D6D006632CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD52B50E16615D6D006632CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD52B51316615D6D006632CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD52B51416615D6D006632CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD52B51616615D6D006632CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "org.sexmeter/org.sexmeter-Prefix.pch";
+				INFOPLIST_FILE = "org.sexmeter/org.sexmeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD52B51716615D6D006632CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "org.sexmeter/org.sexmeter-Prefix.pch";
+				INFOPLIST_FILE = "org.sexmeter/org.sexmeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD52B51916615D6D006632CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/org.sexmeter.app/org.sexmeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "org.sexmeter/org.sexmeter-Prefix.pch";
+				INFOPLIST_FILE = "org.sexmeterTests/org.sexmeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CD52B51A16615D6D006632CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/org.sexmeter.app/org.sexmeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "org.sexmeter/org.sexmeter-Prefix.pch";
+				INFOPLIST_FILE = "org.sexmeterTests/org.sexmeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD52B4CE16615D6D006632CF /* Build configuration list for PBXProject "org.sexmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD52B51316615D6D006632CF /* Debug */,
+				CD52B51416615D6D006632CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD52B51516615D6D006632CF /* Build configuration list for PBXNativeTarget "org.sexmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD52B51616615D6D006632CF /* Debug */,
+				CD52B51716615D6D006632CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD52B51816615D6D006632CF /* Build configuration list for PBXNativeTarget "org.sexmeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD52B51916615D6D006632CF /* Debug */,
+				CD52B51A16615D6D006632CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD52B4CB16615D6D006632CF /* Project object */;
+}
